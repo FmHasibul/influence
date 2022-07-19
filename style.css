@@ -1,0 +1,57 @@
+/* Common Style  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+}
+
+/* Header Style  */
+.container{
+    margin: 50px 40px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    gap: 4em;
+}
+.intro-text p{
+    padding: 2em 0;
+
+}
+.intro-image{
+    position: relative;
+    height: 30;
+    margin: 0%;
+}
+
+.image img {
+    
+    position: absolute;
+    top: 2em;
+}
+
+/* ---------
+Logo Section 
+----------- */
+
+.logo{
+    margin: 0 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    border-top : 1px solid ;
+    border-bottom: 1px solid; 
+        border-image: linear-gradient(90deg,#c0ccda1a 0%,  #8d8d87 50%,#c0ccda1a 90%);
+            border-image-slice: 1;
+}
+/* hr{
+    background-image: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+    border-image-slice: 1slice ;
+} */
+
